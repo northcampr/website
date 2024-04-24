@@ -1,12 +1,13 @@
 {
   "name": "ricardobalk-website",
-  "version": "3.5.0",
+  "version": "3.6.0",
   "description": "Ricardo Balk's Personal Website",
   "main": "index.js",
   "repository": "https://github.com/ricardobalk/website",
   "author": "Ricardo Balk",
   "license": "ISC",
   "private": true,
+  "packageManager": "yarn@1.22.19",
   "scripts": {
     "dev": "nuxt dev",
     "build": "nuxt build",
@@ -23,11 +24,12 @@
     "vite-svg-loader": "^4.0.0"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.4.2",
-    "@fortawesome/free-brands-svg-icons": "^6.4.2",
-    "@fortawesome/free-regular-svg-icons": "^6.4.2",
-    "@fortawesome/free-solid-svg-icons": "^6.4.2",
-    "@fortawesome/vue-fontawesome": "^3.0.5",
+    "@fortawesome/fontawesome-common-types": "^6.5.2",
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/free-regular-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/vue-fontawesome": "^3.0.6",
     "@popperjs/core": "^2.11.8"
   }
 }
