@@ -26,8 +26,8 @@
 </script>
 
 <style lang="postcss">
-@import "/fonts/Lato/lato.css";
-@import "/fonts/Raleway/raleway.css";
+@import "/public/fonts/Lato/lato.css";
+@import "/public/fonts/Raleway/raleway.css";
 
 @tailwind base;
 @tailwind components;
